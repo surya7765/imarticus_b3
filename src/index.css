@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.dark-theme, .MuiAppBar-root {
+    background-color: #3d3b3b !important;
+    color: #fff !important;
+    transition: background-color 0.5s ease-in;
+}
+
+.light-theme .MuiAppBar-root{
+    background-color: #1976d2 !important;
+}
+
+.light-theme {
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: background-color 0.5s ease-in;
+}
